@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>PREM PARIHAR</title>
+</head>
+<body>
+    <section class="naam">
+    <h1>PHOTO POSE</h1>
+    
+    </section>
+<section class="main">
+    <div class="container">
+    <div  class="slider">
+        <div class="slides" style="--img:url(images/p1.jpg)
+                                   ">
+        <div class="content">
+        </div>
+        </div>
+        
+        <div class="slides" style="--img:url(images/p2.jpg)   ">
+        <div class="content">
+        </div>
+        </div>
+    
+        
+        <div class="slides" style="--img:url(images/p3.jpg)    ">
+        <div class="content">
+        </div>
+        </div>
+        
+        
+        <div class="slides" style="--img:url(images/p4.jpg)     ">
+        <div class="content">
+        </div>
+        </div>
+        
+        
+        <div class="slides" style="--img:url(images/p5.jpg)    ">
+        <div class="content">
+        </div>
+        </div>     
+        
+        
+        <div class="slides" style="--img:url(images/p6.jpg)  ">
+        <div class="content">
+        </div>
+        </div>     
+        
+        <div class="slides" style="--img:url(images/p7.jpg)  ">
+        <div class="content">
+        </div>
+        </div> 
+        
+        
+        
+        
+        
+        
+        </div> 
+        <div class="buttons">
+        <span class="prev"></span>
+        <span class="next"></span>
+        </div>
+        
+    </div>
+    </section>
+    
+    <section class="card"> 
+ 
+ <div class="box">
+    <div class="glass"></div>
+    <div class="content"></div>
+    
+    </div>
+<div class="box">
+    <div class="glass"></div>
+<div class="content"></div>
+    
+    </div>  
+    
+<div class="box">
+    <div class="glass"></div>
+    <div class="content"></div>
+</div>
+    
+   <div class="box">
+    <div class="glass"></div>
+    <div class="content"></div>
+</div>     
+        
+        
+      <div class="box">
+    <div class="glass"></div>
+    <div class="content"></div>
+</div>  
+        
+      <div class="box">
+    <div class="glass"></div>
+    <div class="content"></div>
+</div>  
+        
+        
+        
+        
+        
+        
+        
+    </section>
+    
+     <section class="footer">
+    <h4>About Us</h4>
+         <p>PREM PARIHAR</p><br>
+         <p>JAULKHEDA MULTAI (M.P.)</p><br>
+         <p>Gmail :- premparihar0101@gmail.com</p><br>
+         <p> CONTACT :- 8878022484</p>
+      <div class="Icons"> 
+         <a href="">
+       <i class="fa-brands fa-facebook"></i>
+        </a> 
+        <a href="">
+       <i class="fa-brands fa-instagram"></i>              
+        </a> 
+      </div>
+        
+    </section>
+    
+    
+    
+    
+    
+    <script>
+    let next = document.querySelector('.next');
+    let prev = document.querySelector('.prev');
+    let slider = document.querySelector('.slider');
+        
+       next.addEventListener('click' , function(){
+           let slides = document.querySelectorAll('.slides');
+           slider.appendChild(slides[0]);
+       }) 
+        prev.addEventListener('click' , function(){
+           let slides = document.querySelectorAll('.slides');
+           slider.prepend(slides[slides.length - 1]);
+       })
+        
+    </script>
+    
+    
+</body>
+
+</html>
+
